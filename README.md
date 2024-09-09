@@ -1,4 +1,4 @@
-# mes
+# Manufacturing Execution System
 
 ## Project setup
 ```
