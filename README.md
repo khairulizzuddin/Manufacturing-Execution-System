@@ -9,10 +9,10 @@ git clone https://github.com/khairulizzuddin/Manufacturing-Execution-System.git
 ## Run Locally
 Go to the project directory
 ```
-cd Manufacturing-Execution-System
+cd "Manufacturing Execution System"
 ```
 
-### Install dependencies in directory
+### Install all dependencies in directory
 ```
 npm install (for Windows)
 sudo npm install (for MacOS)
