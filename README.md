@@ -1,7 +1,7 @@
 # Manufacturing Execution System
 
 ### Installation
-First, clone the repository to your local machine:
+First, clone the repository to your local directory:
 ```
 git clone https://github.com/khairulizzuddin/Manufacturing-Execution-System.git
 ```
