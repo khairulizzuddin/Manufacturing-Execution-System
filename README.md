@@ -1,6 +1,12 @@
 # Manufacturing Execution System
 
-## Project setup
+### Installation
+First, clone the repository to your local machine:
+```
+git clone https://github.com/khairulizzuddin/Manufacturing-Execution-System.git
+```
+
+## Run Locally
 ```
 npm install
 ```
