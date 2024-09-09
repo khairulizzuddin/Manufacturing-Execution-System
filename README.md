@@ -18,7 +18,7 @@ npm install (for Windows)
 sudo npm install (for MacOS)
 ```
 
-### Start the JSON Server
+### Start JSON Server
 ```
 json-server --watch db.json
 ```
