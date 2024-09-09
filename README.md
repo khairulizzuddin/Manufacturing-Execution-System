@@ -7,23 +7,25 @@ git clone https://github.com/khairulizzuddin/Manufacturing-Execution-System.git
 ```
 
 ## Run Locally
+Go to the project directory
 ```
-npm install
+cd Manufacturing-Execution-System
 ```
 
-### Compiles and hot-reloads for development
+### Install dependencies in directory
+```
+npm install (for Windows)
+sudo npm install (for MacOS)
+```
+
+### Start the JSON Server
+```
+json-server --watch db.json
+```
+
+### Start the application
 ```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Customize configuration
