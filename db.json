@@ -1,0 +1,160 @@
+{
+  "inspections": [
+    {
+      "id": 1,
+      "product": "Product A",
+      "stage": "Raw Materials",
+      "date": "2024-09-01",
+      "result": "Pass",
+      "defects": "No significant defects"
+    },
+    {
+      "id": 2,
+      "product": "Product A",
+      "stage": "In-Process",
+      "date": "2024-09-03",
+      "result": "Pass",
+      "defects": "No defects"
+    },
+    {
+      "id": 3,
+      "product": "Product A",
+      "stage": "Final Product",
+      "date": "2024-09-06",
+      "result": "Pass",
+      "defects": "No significant defects"
+    },
+    {
+      "id": 4,
+      "product": "Product B",
+      "stage": "Raw Materials",
+      "date": "2024-04-15",
+      "result": "Pass",
+      "defects": "Minor defects detected"
+    },
+    {
+      "id": 5,
+      "product": "Product B",
+      "stage": "In-Process",
+      "date": "2024-05-09",
+      "result": "Fail",
+      "defects": "Major defects detected"
+    },
+    {
+      "id": 6,
+      "product": "Product B",
+      "stage": "Final Product",
+      "date": "Not Applicable",
+      "result": "Not Applicable",
+      "defects": "Not Applicable"
+    },
+    {
+      "id": 6,
+      "product": "Product C",
+      "stage": "Raw Materials",
+      "date": "2024-02-11",
+      "result": "Fail",
+      "defects": "Major defects detected"
+    },
+    {
+      "id": 7,
+      "product": "Product C",
+      "stage": "In-Process",
+      "date": "Not Applicable",
+      "result": "Not Applicable",
+      "defects": "Not Applicable"
+    },
+    {
+      "id": 8,
+      "product": "Product C",
+      "stage": "Final Product",
+      "date": "Not Applicable",
+      "result": "Not Applicable",
+      "defects": "Not Applicable"
+    }
+  ],
+  "defects": [
+    {
+      "id": 1,
+      "inspectionId": 1,
+      "description": "Minor defects detected during the in-process stage",
+      "impact": "Medium"
+    },
+    {
+      "id": 2,
+      "inspectionId": 2,
+      "description": "No significant defects detected",
+      "impact": "Low"
+    }
+  ],
+  "masterSchedule": [
+    {
+      "id": 1,
+      "productName": "Product A",
+      "plannedStartDate": "2024-09-01T08:00:00",
+      "plannedEndDate": "2024-09-05T18:00:00"
+    }
+  ],
+  "manufacturingSchedule": [
+    {
+      "id": 1,
+      "task": "Assembling",
+      "assignedDepartment": "Assembly",
+      "startTime": "2024-09-01T08:00:00",
+      "endTime": "2024-09-02T18:00:00"
+    }
+  ],
+  "retailSchedule": [
+    {
+      "id": 1,
+      "productName": "Product A",
+      "quantityAvailable": 100,
+      "dispatchDate": "2024-09-06T08:00:00",
+      "retailDeliveryDate": "2024-09-07T18:00:00"
+    }
+  ],
+  "inventory": [
+    {
+      "id": 1,
+      "name": "Steel Sheets",
+      "quantity": 100,
+      "supplier": "Supplier A",
+      "reorderPoint": 20
+    },
+    {
+      "id": 2,
+      "name": "Plastic Bottles",
+      "quantity": 496,
+      "supplier": "Supplier B",
+      "reorderPoint": 50
+    }
+  ],
+  "receivingInspection": [
+    {
+      "id": 1,
+      "name": "Steel Sheets",
+      "receivedDate": "2024-09-01T08:00",
+      "qualityCheck": "Passed"
+    },
+    {
+      "id": 2,
+      "name": "Plastic Bottles",
+      "receivedDate": "2024-09-05T10:00",
+      "qualityCheck": "Failed"
+    }
+  ],
+  "materialUsage": [
+    {
+      "id": 1,
+      "name": "Steel Sheets",
+      "quantityUsed": 30,
+      "date": "2024-09-06T14:00"
+    },
+    {
+      "id": 2,
+      "name": "Plastic Bottles",
+      "quantityUsed": 100,
+      "date": "2024-09-07T09:00"
+    }
+  ]
+}
